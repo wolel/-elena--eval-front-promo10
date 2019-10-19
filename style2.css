@@ -5,15 +5,23 @@ body{
     background: rgb(28, 20, 14);
 }
 .textHeader{
-    padding-top: 100px;
+    padding-top: 70px;
     margin-left: auto;
     margin-right: auto
 }
 #titre{font-size: 150%}
 
-p{  padding-top: 100px;
+p{  padding-top: 80px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    color:white;}
+a{
+    text-decoration: none;
+}
+i{
+    margin-top: -10px;
+    font-size: 50px;
+}
 
 #main{
     background: wheat;
@@ -22,8 +30,9 @@ p{  padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
+    text-decoration: none;
     grid-template-columns:250px 250px 250px ;           /* grid columns and row*/
-    grid-template-rows: 250px 250px 250px 250px 250px;
+    grid-template-rows: 200px 250px 250px 250px 250px;
 }
 /* ALL THE block*/
 .block {
@@ -38,7 +47,7 @@ p{  padding-top: 100px;
 }
 /* block ABOUT ME*/
 .header_aboutMe {
-
+    height: 200px;
     float: left;
     background:rgb(100, 79, 53);
     border-bottom: 1px solid white;
@@ -46,7 +55,6 @@ p{  padding-top: 100px;
     grid-row: 1;
 }
 .header_aboutMe:hover{
-    background:rgb(188, 162, 91) ;
     text-shadow: 1px 2px 3px rgb(63, 54, 31);
 }
 /* block PROFILE*/
